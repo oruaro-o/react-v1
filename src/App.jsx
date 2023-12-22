@@ -14,6 +14,8 @@ export default function App() {
     localStorage.setItem("ITEMS", JSON.stringify(todos));
   }, [todos]);
 
+  //testing the switch to public
+
   function addTodo(title) {
     setTodos((currentTodos) => {
       return [
